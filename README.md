@@ -58,11 +58,11 @@ The results confirmed that the previously demonstrated vulnerable behavior was m
 
 ## M9 Test Results
 
-| Test                       | Vulnerable | Hardened        |
-| -------------------------- | ---------- | --------------- |
-| Secret exposed             | ❌ Yes      | ✅ No / Redacted |
-| Attacker can ingest policy | ❌ Yes      | ✅ Rejected      |
-| Malicious policy retrieved | ❌ Yes      | ✅ Prevented     |
+| **Test**                   | **Vulnerable** | **Hardened**    |
+| -------------------------- | -------------- | --------------- |
+| Secret exposed             | ❌ Yes          | ✅ No / Redacted |
+| Attacker can ingest policy | ❌ Yes          | ✅ Rejected      |
+| Malicious policy retrieved | ❌ Yes          | ✅ Prevented     |
 
 The comparison demonstrates the difference between the original vulnerable implementation and the hardened implementation.
 
@@ -94,17 +94,16 @@ The completed implementation demonstrated:
 * Git
 * GitHub
 * Command Line
-* Security testing and validation tools
+* Security Testing and Validation Tools
 
 ## Repository Structure
 
 ```text
 .
 ├── README.md
-├── report
+└── report/
+    └── [assignment report]
 ```
-
-> The actual repository structure may vary according to the files included with the assignment.
 
 ## Conclusion
 
@@ -118,5 +117,5 @@ The vulnerable implementation was successfully analyzed and tested, the identifi
 **Organization:** Network Intelligence
 **Status:** Hardened and Validated
 
-**Assignment Walkthrough Video::**
-*https://drive.google.com/drive/folders/1xoDPM3G0n86EY4k4iQvbnkigJpK3JJ-E?usp=sharing*
+**Assignment Walkthrough Video:**
+[View Assignment Walkthrough](https://drive.google.com/drive/folders/1xoDPM3G0n86EY4k4iQvbnkigJpK3JJ-E?usp=sharing)
